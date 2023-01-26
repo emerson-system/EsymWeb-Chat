@@ -1,12 +1,14 @@
 import React from "react";
 //import { Circle } from "better-react-spinkit";
-import * as C from "./styles";
+import "./styles.css";
 
 const Loading = () => {
   return (
-    <C.Container>
-
-    </C.Container>
+    <div className="loader-wrapper">
+      <div className="loader">
+        <div className="loader loader-inner"></div>
+      </div>
+    </div>
   );
 };
 
